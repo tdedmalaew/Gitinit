@@ -9,4 +9,9 @@ public class Hello {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	public String toString() {
+		
+		return "Hello "+this.name;
+	}
 }
