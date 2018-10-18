@@ -7,7 +7,7 @@ public class Main {
 		String name = in.next();
 		Hello hello = new Hello();
 		hello.setName(name);
-		System.out.println("Hello "+.getName);
+		System.out.println(hello.toString());
 
 	}
 
